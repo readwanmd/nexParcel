@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.small-primary-btn {
+  @apply text-[#F43F5E] btn btn-sm disabled:cursor-not-allowed disabled:text-opacity-40 shadow-md;
+}
+.small-secondary-btn {
+  @apply text-green-500 btn btn-sm disabled:cursor-not-allowed disabled:text-opacity-40 shadow-md;
+}
+.input-style {
+  @apply block w-full px-4 py-3 border border-opacity-30 border-[#F43F5E] rounded-lg focus:border-[#F43F5E] focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-[#F43F5E];
+}
+.label-style {
+  @apply block mb-2 text-sm font-medium;
+}
